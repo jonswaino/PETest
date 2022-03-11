@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script type="text/javascript">
+	function preventBack() {
+		console.log("preventBack()");
+		window.history.forward();
+	}
+	setTimeout("preventBack()", 0);
+	window.onunload = function() { null };
+	
+</script>
+<body>
+
+
+<div class="">
+ <h1>This is Step 2</h1>
+  <a href="index-1.html" type="button">Prev</a>
+ <a href="index-3.html" type="button">Next</a>
+</div>
+
+</body>
+</html>
