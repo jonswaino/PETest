@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script type="text/javascript">
+	 history.pushState(null, document.title, location.href);
+    history.back();
+    history.forward();
+    window.onpopstate = function () {
+        history.go(1);
+    };
+	
+</script>
+<body>
+
+
+<div class="">
+ <h1>This is Step 3</h1>
+  <a href="index-2.html" type="button">Prev</a>
+
+</div>
+
+</body>
+</html>
